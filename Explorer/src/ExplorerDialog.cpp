@@ -2368,6 +2368,7 @@ bool ExplorerDialog::doPaste(LPCTSTR pszTo, LPDROPFILES hData, const DWORD & dwE
 
 void ExplorerDialog::UpdateColors()
 {
+    return;
 	COLORREF bgColor = NppInterface::getEditorDefaultBackgroundColor();
 	COLORREF fgColor = NppInterface::getEditorDefaultForegroundColor();
 
